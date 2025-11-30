@@ -1,0 +1,138 @@
+.quiz-page {
+  padding: 20px;
+  min-height: calc(100vh - 60px);
+}
+
+.quiz-header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.quiz-header h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.quiz-header p {
+  color: #7f8c8d;
+  font-size: 16px;
+}
+
+.quiz-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.question-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.question-card h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option-label {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.option-label:hover {
+  border-color: #4567b7;
+  background-color: #f0f4ff;
+}
+
+.option-label.selected {
+  border-color: #4567b7;
+  background-color: #e8f0fe;
+}
+
+.option-label input[type="radio"] {
+  margin-right: 12px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.quiz-footer {
+  text-align: center;
+}
+
+.quiz-result {
+  text-align: center;
+  padding: 40px;
+}
+
+.quiz-result h2 {
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.score-display {
+  margin-bottom: 30px;
+}
+
+.score-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.score-value {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.score-display p {
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+.result-actions {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .question-card {
+    padding: 20px;
+  }
+
+  .score-circle {
+    width: 120px;
+    height: 120px;
+  }
+
+  .score-value {
+    font-size: 28px;
+  }
+}
+
+
+
+
+

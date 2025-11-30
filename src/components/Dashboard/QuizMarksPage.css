@@ -1,0 +1,192 @@
+.quiz-marks-page {
+  padding: 20px;
+  min-height: calc(100vh - 60px);
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.page-header h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.page-header p {
+  color: #7f8c8d;
+  font-size: 16px;
+}
+
+.no-subjects {
+  text-align: center;
+  padding: 40px;
+  color: #7f8c8d;
+}
+
+.marks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.subject-marks-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 25px;
+  border-left: 4px solid #4567b7;
+}
+
+.subject-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.subject-header h3 {
+  color: #2c3e50;
+  margin: 0;
+  font-size: 20px;
+}
+
+.subject-average {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.average-label {
+  color: #7f8c8d;
+  font-size: 14px;
+}
+
+.average-score {
+  color: #2c3e50;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.grade-badge {
+  padding: 6px 12px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.no-quizzes {
+  text-align: center;
+  padding: 30px;
+  color: #7f8c8d;
+}
+
+.no-quizzes p {
+  margin-bottom: 15px;
+}
+
+.quizzes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.quiz-result-item {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.quiz-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.quiz-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.quiz-date {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.quiz-score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.score-details {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.score-value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.score-grade {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.score-breakdown {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.score-bar {
+  height: 6px;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.take-more-quizzes {
+  text-align: center;
+  padding-top: 15px;
+  border-top: 1px solid #ecf0f1;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .subject-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .quiz-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .quiz-score {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .score-value {
+    font-size: 24px;
+  }
+}
+
+
+
+
+
